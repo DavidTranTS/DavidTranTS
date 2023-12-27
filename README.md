@@ -1,35 +1,112 @@
-<!-- Banner Image -->
-<img align="center" src="https://raw.githubusercontent.com/DavidTranTS/DavidTranTS/main/assets/banner.png" alt="Banner">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name's GitHub Profile</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
-<!-- Hi there -->
-## 👋 Hi there, I'm [Your Name]!
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 2rem;
+            text-align: center;
+        }
 
-### 🚀 About Me
-- 🔭 Exploring the world of [Your Main Field].
-- 🌱 Learning and growing every day.
-- 👯 Open to collaborations in projects related to [Your Interests].
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
 
-### 🛠️ Tech Stack
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
 
-### 🌐 Find Me
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-linkedin-profile/)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/your-twitter-handle)
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
 
-### 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DavidTranTSb&show_icons=true&hide=contribs,prs)
+        a:hover {
+            text-decoration: underline;
+        }
 
-### 📚 Currently Learning
-- [Subject/Technology 1]
-- [Subject/Technology 2]
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
 
-<!-- Footer -->
-<p align="center">
-  <img src="https://visitor-badge.glitch.me/badge?page_id=DavidTranTS.DavidTranTS" alt="Visitor Count">
-</p>
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2rem;
+        }
+
+        .stats div {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Exploring the World of Technology</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>Hi there! I'm passionate about...</p>
+        </section>
+
+        <section>
+            <h2>Tech Stack</h2>
+            <ul>
+                <li>C++</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <!-- Add more technologies -->
+            </ul>
+        </section>
+
+        <section>
+            <h2>Find Me</h2>
+            <p>
+                <a href="https://www.linkedin.com/in/your-linkedin-profile/">LinkedIn</a> |
+                <a href="https://twitter.com/your-twitter-handle">Twitter</a>
+            </p>
+        </section>
+
+        <section>
+            <h2>GitHub Stats</h2>
+            <div class="stats">
+                <!-- GitHub Stats Widgets -->
+            </div>
+        </section>
+
+        <section>
+            <h2>Currently Learning</h2>
+            <ul>
+                <li>Subject/Technology 1</li>
+                <li>Subject/Technology 2</li>
+                <!-- Add more subjects/technologies -->
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
